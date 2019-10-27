@@ -1,0 +1,48 @@
+body {
+  background-color: rgb(228, 228, 228);
+  /* border: solid 2px; */
+}
+
+main {
+  width: 50%;
+  margin: 5% auto;
+}
+
+h1 {
+  color: red;
+  font-family: American Typewriter;
+  font-size: 80px;
+  text-align: center;
+  text-decoration: underline 5px;
+  text-decoration-color: red;
+}
+
+h2 {
+  /* background-color: white; */
+  font-family: American Typewriter;
+  text-align: left;
+  /* border: solid 2px; */
+  width: 125px;
+}
+
+h2:hover {
+  color: red;
+  font-size: 26px;
+}
+
+p {
+  font-size: 18px;
+  text-align: justify;
+  /* background-color: white; */
+  /* border: 1px solid black; */
+}
+
+p:hover:first-letter {
+  color: red;
+  font-size: 36px;
+}
+
+span {
+  font-weight: bold;
+  color: red;
+}
