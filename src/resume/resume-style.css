@@ -1,0 +1,104 @@
+body {
+  display: grid;
+  grid-template-columns: 70% 30%;
+  grid-template-rows: 5% 95%;
+  grid-template-areas:
+    "header header"
+    "main sidebar";
+  width: auto;
+  height: auto;
+}
+
+.main {
+  grid-area: main;
+  margin: 25px;
+}
+
+.flex {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+}
+.sidebar {
+  width: 150px;
+  height: 750px;
+  grid-area: sidebar;
+  background-color: lightgray;
+  margin: 25px;
+  padding: 15px;
+}
+
+header {
+  background-color: lightblue;
+  height: auto;
+  width: auto;
+  font-family: American Typewriter;
+  font-size: 36px;
+  grid-area: header;
+  margin: 25px;
+  padding: 15px;
+}
+
+.margin-group {
+  margin-left: 350px;
+}
+
+.margin-group-a {
+  margin-left: 390px;
+}
+
+.margin-group-b {
+  margin-left: 330px;
+}
+
+.pirate {
+  font-family: american typewriter;
+  font-size: 18px;
+}
+
+.overview {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  text-align: left;
+}
+
+h2 {
+  font-family: american typewriter;
+  font-size: 20px;
+}
+
+h4 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+}
+
+.year {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+}
+
+.title {
+  font-family: american typewriter;
+  font-size: 20px;
+}
+
+.location {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+}
+
+.responsibilities {
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 390px;
+}
+
+li {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+}
