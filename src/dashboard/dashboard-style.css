@@ -14,11 +14,6 @@ body {
 
 .calendar {
   grid-area: 1/1/2/2;
-  text-align: center;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 25px;
-  color: white;
-  /* width: 100%; */
 }
 
 .cal-image {
@@ -42,7 +37,7 @@ body {
 }
 
 .calculator {
-  grid-area: 1/3/4/4;
+  grid-area: 1/3/2/4;
   text-align: center;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 25px;
@@ -59,7 +54,7 @@ body {
   grid-area: 2/2/3/3;
   text-align: center;
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 100px;
+  font-size: 90px;
   font-weight: bold;
   color: white;
   padding-top: 100px;
@@ -140,6 +135,8 @@ body {
   display: block;
   margin: 0 auto;
 }
-.todolist {font-family: Arial, Helvetica, sans-serif;
+.todolist {
+  font-family: Arial, Helvetica, sans-serif;
   font-size: 16px;
   color: white;
+}
