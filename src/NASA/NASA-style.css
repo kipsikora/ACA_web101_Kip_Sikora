@@ -1,0 +1,72 @@
+body {
+  width: 850px;
+  height: 774px;
+  margin: 0 auto;
+}
+
+.background {
+  margin-bottom: 20px;
+}
+
+footer {
+  display: flex;
+  width: 850px;
+  height: 324px;
+  background-color: lightgray;
+}
+
+h2 {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+
+li {
+  list-style: none;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.socialhead {
+  padding-left: 40px;
+}
+
+.social {
+  margin-right: 20px;
+}
+
+a:visited {
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:hover {
+  color: navy;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+.officehead {
+  padding-right: 25px;
+}
+
+.office {
+  margin-left: 40px;
+  margin-right: 75px;
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+}
+
+.contacthead {
+  padding-right: 75px;
+}
+
+.input {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.submit {
+  width: 25%;
+}
