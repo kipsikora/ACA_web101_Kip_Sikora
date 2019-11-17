@@ -4,12 +4,12 @@
     header {height:205px;
     background-image: url(./Images/head-3071690_1920.png);
     background-repeat: no-repeat;
-    margin-top: -5px;
+    margin-top: -55px;
     margin-left: 100px;
 }
-    #logoRose {visibility: hidden;}
+    #logoRose {display: none;}
 
-    .logo {visibility: hidden;
+    .logo {display: none;
     display: flex;
     justify-content: center;}
 
@@ -20,13 +20,14 @@
         font-family: Arial, Helvetica, sans-serif;
         font-size: 14px;
         font-weight: bold;
+        display: none;
       }
     
     #featurePhoto {max-width: 100%;}
 
-    .float > p { visibility: hidden;}
+    .float > p { display: none;}
     
-    h2 {visibility: hidden;}
+    h2 {display: none;}
 
     .float {
         position: absolute;
@@ -41,7 +42,7 @@
         font-family: Arial, Helvetica, sans-serif;
         font-size: 14px;
         display: inline-block;
-        margin-top: -225px;
+        margin-top: 30px;
         margin-left: -75px;
         padding: 12px 7px 12px 7px;
         background-color: red;
