@@ -6,23 +6,41 @@ body {
 main {
   width: 50%;
   margin: 5% auto;
+  padding: 50px;
+  border: solid white 25px;
+  border-style: ridge;
+  /* width: 50%;
+  margin: 5% auto; */
 }
 
 h1 {
-  color: red;
+  /* color: red;
   font-family: American Typewriter;
   font-size: 80px;
   text-align: center;
   text-decoration: underline 5px;
+  text-decoration-color: red; */
+  color: red;
+  font-family: American Typewriter;
+  font-size: 80px;
+  text-align: center;
   text-decoration-color: red;
+  border: red solid 15px;
+  border-style: ridge;
+  background-color: black;
+  padding: 15px;
 }
 
 h2 {
-  /* background-color: white; */
   font-family: American Typewriter;
-  text-align: left;
-  /* border: solid 2px; */
+  text-align: center;
+  border: solid 5px;
   width: 125px;
+  background-color: white;
+  /* font-family: American Typewriter;
+  text-align: left; */
+  /* border: solid 2px; */
+  /* width: 125px; */
 }
 
 h2:hover {
@@ -33,6 +51,11 @@ h2:hover {
 p {
   font-size: 18px;
   text-align: justify;
+  padding: 25px;
+  background-color: white;
+  border: 5px solid black;
+  /* font-size: 18px;
+  text-align: justify; */
   /* background-color: white; */
   /* border: 1px solid black; */
 }
