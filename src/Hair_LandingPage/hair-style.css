@@ -1,0 +1,164 @@
+body {
+  margin: 0;
+  background-color: lightgrey;
+}
+header {
+  background-color: lightgrey;
+  height: 225px;
+  position: relative;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+a {
+  color: black;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:focus,
+a:active {
+  outline: none;
+  -moz-outline-style: none;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 35px;
+  /* margin-left: 100px;
+  margin-right: 100px; */
+}
+
+.hamburger {
+  visibility: hidden;
+}
+
+#home {
+  margin-right: 25px;
+}
+
+#about {
+  margin-right: 25px;
+}
+
+#gallery {
+  margin-right: 25px;
+}
+
+#blog {
+  margin-right: 25px;
+}
+
+.float {
+  position: absolute;
+  top: 300px;
+  right: 0px;
+  bottom: 0px;
+  left: 800px;
+  font-weight: bold;
+}
+
+#featurePhoto {
+  width: 100vw;
+}
+
+h2 {
+  width: 60%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  padding: 15px;
+  background-color: white;
+}
+
+p {
+  width: 60%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+  background-color: black;
+  color: white;
+}
+
+.float > p {
+  padding: 15px;
+}
+
+#bookNow {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  display: inline-block;
+  margin-top: 5px;
+  padding: 20px 15px 20px 15px;
+  background-color: red;
+  color: white;
+}
+
+#aBook {
+  color: white;
+}
+
+.container2 {
+  height: 350px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 25px;
+  margin-left: 45px;
+  margin-right: 45px;
+  margin-bottom: 25px;
+}
+
+.border {
+  border: solid black 2px;
+}
+
+.container2 > h3 {
+  display: flex;
+  align-items: flex-end;
+}
+
+h3 {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.footer {
+  height: 150px;
+  display: flex;
+  justify-content: space-between;
+  background-color: black;
+  margin-bottom: 50px;
+}
+
+.copyright {
+  display: flex;
+  align-items: center;
+  margin-left: 45px;
+}
+
+#pfoot {
+  width: 100%;
+  font-size: 12px;
+}
+
+.social {
+  display: flex;
+  justify-content: space-between;
+  width: 200px;
+  align-items: center;
+  margin-right: 45px;
+}
+
+.social > a {
+  color: white;
+}
