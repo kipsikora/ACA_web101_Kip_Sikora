@@ -1,0 +1,191 @@
+body {
+  background-color: 6b8c86;
+  border: solid 25px;
+  border-color: 4d645f;
+  margin: 25px;
+}
+
+.mainContainer {
+  margin: 25px;
+  padding: 50px;
+  border: solid 25px;
+  border-color: 4d645f;
+  /* box-shadow: 10px 10px black; */
+}
+
+.kipSikora {
+  display: flex;
+  justify-content: center;
+}
+
+h1 {
+  font-family: "Poppins", sans-serif;
+  color: white;
+  font-size: 6rem;
+  font-weight: bold;
+  margin: 0;
+  /* margin-top: 25px; */
+}
+
+.jobTitle {
+  display: flex;
+  justify-content: center;
+}
+
+h2 {
+  font-family: "Poppins", sans-serif;
+  color: white;
+  /* color: lightgrey; */
+  font-size: 1rem;
+  font-weight: normal;
+}
+
+#top {
+  width: 21%;
+  color: 4d645f;
+}
+
+#top2 {
+  width: 16%;
+}
+
+#bottom {
+  width: 21%;
+  color: 4d645f;
+}
+
+#bottom2 {
+  width: 16%;
+}
+
+.topNav {
+  display: flex;
+  justify-content: center;
+}
+
+a:focus,
+a:active {
+  outline: none;
+  -moz-outline-style: none;
+}
+
+nav {
+  border: solid 2px;
+  border-color: 4d645f;
+  padding: 10px;
+}
+
+#about {
+  margin-right: 25px;
+}
+
+#contact {
+  margin-left: 25px;
+}
+
+#menu {
+  display: none;
+}
+
+a {
+  font-family: "Poppins", sans-serif;
+  font-weight: lighter;
+  color: white;
+  font-size: 1rem;
+}
+
+a:link {
+  text-decoration-line: none;
+}
+
+hr {
+  color: white;
+  border-style: solid;
+  width: 26%;
+}
+
+.projectContainer {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 25px;
+}
+
+h3 {
+  font-family: "Poppins", sans-serif;
+  font-weight: lighter;
+  color: white;
+  text-align: center;
+}
+
+.videoContainer {
+  display: flex;
+  justify-content: center;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+video {
+  height: 350px;
+}
+
+.kipSikoraCom {
+  display: flex;
+  justify-content: center;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+iframe {
+  width: 625px;
+  height: 350px;
+}
+
+.social {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+#linked {
+  margin-right: 10px;
+}
+#git {
+  margin-left: 10px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 25px;
+  font-family: "Poppins", sans-serif;
+  font-size: 1rem;
+  font-weight: lighter;
+  color: white;
+}
+
+.left {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.left > input {
+  width: 200px;
+}
+
+.right {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+#message {
+  width: 200px;
+}
+
+.buttons {
+  margin-top: 10px;
+}
