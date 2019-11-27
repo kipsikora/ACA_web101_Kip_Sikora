@@ -57,15 +57,7 @@
   }
 
   video {
-    width: 376px;
-    height: 225px;
-  }
-
-  #reset {
-    border: white 5px;
-  }
-
-  #submit {
-    border: white 5px;
+    /* width: 376px; */
+    /* height: 225px; */
   }
 }
