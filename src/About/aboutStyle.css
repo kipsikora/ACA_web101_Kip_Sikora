@@ -1,0 +1,119 @@
+body {
+  background-color: 4d645f;
+}
+
+.topNav {
+  display: flex;
+  justify-content: center;
+}
+
+a {
+  font-family: "Poppins", sans-serif;
+  font-weight: lighter;
+  color: white;
+  font-size: 2rem;
+}
+
+a:link {
+  text-decoration-line: none;
+}
+
+#about {
+  margin-right: 100px;
+}
+
+#contact {
+  margin-left: 100px;
+}
+
+#menu {
+  display: none;
+}
+
+hr {
+  border: solid white 1px;
+}
+
+.mission {
+  background-color: 6b8c86;
+  height: 150px;
+  margin: 25px;
+  padding: 25px;
+  border: solid white 25px;
+}
+
+h1 {
+  font-family: "Poppins", sans-serif;
+  font-weight: lighter;
+  color: white;
+  text-align: center;
+}
+
+h2 {
+  font-family: "Poppins", sans-serif;
+  font-weight: lighter;
+  color: white;
+  text-align: center;
+}
+
+p {
+  font-family: "Poppins", sans-serif;
+  font-weight: lighter;
+  color: white;
+}
+
+.about {
+  background-color: 6b8c86;
+  height: 200px;
+  margin-left: 225px;
+  margin-right: 225px;
+  padding: 25px;
+  border: solid white 25px;
+}
+
+.block2 {
+  display: flex;
+  background-color: 6b8c86;
+  height: 200px;
+  margin: 25px;
+  padding: 25px;
+  border: solid white 25px;
+}
+
+img {
+  align-items: center;
+}
+
+.ulList {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  /* margin-top: 25px; */
+}
+
+li {
+  font-family: "Poppins", sans-serif;
+  font-weight: lighter;
+  color: white;
+  align-items: center;
+}
+
+address {
+  font-family: "Poppins", sans-serif;
+  font-weight: lighter;
+  color: white;
+  margin-left: 150px;
+  margin-top: 50px;
+}
+
+blockquote {
+  font-family: "Poppins", sans-serif;
+  font-weight: lighter;
+  color: white;
+  background-color: 6b8c86;
+  height: 200px;
+  margin-left: 225px;
+  margin-right: 225px;
+  padding: 25px;
+  border: solid white 25px;
+}
