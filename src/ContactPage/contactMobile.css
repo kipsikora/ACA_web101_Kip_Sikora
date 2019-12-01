@@ -1,0 +1,80 @@
+@media (max-width: 576px) {
+  body {
+    max-width: 576px;
+    background-color: #318081;
+  }
+
+  .topNav {
+    display: none;
+  }
+
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+
+  .dropdownContent {
+    display: none;
+    align-items: center;
+    position: absolute;
+    background-color: #318081;
+    max-width: 75px;
+    padding: 5px;
+    text-align: left;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  }
+
+  .dropdown:hover .dropdownContent {
+    display: block;
+    font-family: "Poppins", sans-serif;
+  }
+
+  #dMenu {
+    font-family: "Poppins", sans-serif;
+    font-weight: lighter;
+    font-size: 1.5rem;
+    color: white;
+    margin: 0 auto;
+  }
+
+  #dhome {
+    font-size: 1rem;
+    margin-bottom: 10px;
+  }
+
+  #dcontact {
+    font-size: 1rem;
+    margin-bottom: 10px;
+  }
+
+  #dWork {
+    font-size: 1rem;
+    margin-top: 10px;
+  }
+
+  #name {
+    width: 65%;
+    background: linear-gradient(to top right, #318081, white, #318081);
+    margin: 0 auto;
+  }
+
+  .leftBlock {
+    margin-bottom: 15px;
+  }
+
+  .upperCanvas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 25px;
+  }
+
+  .philoWrap {
+    margin-bottom: 15px;
+  }
+
+  .ulWrap {
+    margin-bottom: 15px;
+  }
+}
