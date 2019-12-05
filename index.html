@@ -4,8 +4,14 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Solway&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./src/Styles/Animate.css" />
     <link rel="stylesheet" href="./style.css" />
-    <link rel="stylesheet" href="./mobile-style.css" />
+    <link rel="stylesheet" href="lpmobile.css" />
+
     <title>My Portfolio</title>
   </head>
   <header>
@@ -14,14 +20,26 @@
       class="logo"
       alt="austin coding academy logo"
     />
+    <div class="dropdown">
+      <span id="dMenu">Menu</span>
+      <div class="dropdownContent">
+        <a id="dresume" href="#resume">Resume</a>
+        <a id="dabout" href="#about">About</a>
+        <a id="dblog" href="#blog">Blog</a>
+        <a id="dmedium" href="#medium">Medium</a>
+        <a id="dcontact" href="#contact">Contact</a>
+        <a id="dresponsive" href="#responsive">Responsive</a>
+      </div>
+    </div>
+
     <nav>
       <a class="has-border" href="./src/resume/resume.html">Resume</a>
-      <a class="has-border" href="#about">About Me</a>
-      <a class="has-border" href="./src/blog/blog.html">My Blog</a>
+      <a class="has-border" href="#about">About</a>
+      <a class="has-border" href="./src/blog/blog.html">Blog</a>
       <a class="has-border" href="https://medium.com/@kipsikora">Medium</a>
-      <a class="has-border" href="contact">Contact Me</a>
+      <a class="has-border" href="contact">Contact</a>
       <a class="has-border" href="./src/Responsive Page/index.html"
-        >Responsive Design</a
+        >Responsive</a
       >
     </nav>
   </header>
@@ -29,7 +47,9 @@
     <main>
       <img src="./IMG_2919.JPG" id="profile-pic" alt="Head shot of Me" />
       <h1>Kip Sikora</h1>
-      <h2>Student of Web Development</h2>
+    </main>
+    <div class="footer">
+      <h2 id="title">Student of Web Development</h2>
       <button id="portfolio">
         <a href="./src/portfolio.html">Portfolio</a>
       </button>
@@ -37,6 +57,6 @@
       <a class="small-text" href="https://austincodingacademy.com/"
         >© Austin Coding Academy</a
       >
-    </main>
+    </div>
   </body>
 </html>
