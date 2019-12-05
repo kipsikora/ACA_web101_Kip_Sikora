@@ -1,21 +1,45 @@
+@keyframes background {
+  0% {
+    background-image: url(./src/landingPage-Animated/01.JPG);
+  }
+  25% {
+    background-image: url(./src/landingPage-Animated/02.jpg);
+  }
+  50% {
+    background-image: url(./src/landingPage-Animated/03.jpg);
+  }
+  100% {
+    background-image: url(./src/landingPage-Animated/04.jpg);
+  }
+}
+
 body {
   font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
   background-color: grey;
   background-repeat: no-repeat;
   background-size: 1600px 1000px;
+  background-image: url(./src/landingPage-Animated/01.jpg);
+  background-position: center;
   width: 100vw;
   height: 100vh;
+  animation-name: background;
+  animation-timing-function: ease-in-out;
+  animation-direction: alternate;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-delay: 1s;
 }
-
 .logo {
+  display: none;
   width: 75px;
   height: 75px;
   margin: 3% 10%;
 }
 
 header {
-  display: grid;
-  grid-template-columns: 40% 60%;
+  display: flex;
+  /* grid-template-columns: 40% 60%; */
   width: 100%;
 }
 
@@ -26,12 +50,16 @@ main {
   grid-template-columns: 30% 40% 30%;
 }
 
+.dropdown {
+  display: none;
+}
+
 nav > a {
   margin: 2% 1% 3%;
-  height: 10%;
-  width: 15%;
+  /* height: 10%; */
+  /* width: 10%; */
   color: white;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Solway", serif;
   font-size: 20px;
   border-radius: 25px;
   background: transparent;
@@ -40,61 +68,120 @@ nav > a {
   border: 2px solid white;
 }
 
+a:link {
+  text-decoration-line: none;
+  color: white;
+}
+
+a:focus,
+a:active {
+  outline: none;
+  -moz-outline-style: none;
+}
+
 .has-border {
+  justify-content: center;
   border-radius: 25px;
-  border: 2px solid #0795c3;
-  background: none;
-  padding: 20px;
+  border: 5px solid #0795c3;
+  background: darkgrey;
+  padding: 10px;
+}
+
+.has-border:hover {
+  animation: flip 2s infinite;
+  /* animation-duration: 2s;
+  animation-iteration-count: infinite; */
 }
 
 nav {
   display: flex;
-  justify-content: flex-end;
+  justify-content: space-around;
   width: 100%;
   padding-right: 2%;
 }
 
 #profile-pic {
+  display: none;
   width: 300px;
   height: 300px;
   border-radius: 50%;
   margin: 15% auto;
+  animation: bounceOutUp 3s;
+  animation-iteration-count: 1;
   grid-column: 2/3;
 }
 
+/* #profile-pic:hover {
+  animation: rotateOut 2s, 2s;
+} */
+
 h1 {
+  font-family: "Solway", serif;
+  font-size: 72px;
   color: white;
+  /* background: linear-gradient(to right, #58c6d1, #ec1d04);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; */
   grid-column: 2/3;
-  margin: 3% auto;
-  border-bottom: 2px solid #1940a9;
+  margin: 0 auto;
+  animation: heartBeat 1s;
+  animation-iteration-count: infinite;
 }
 
 h2 {
-  grid-column: 2/3;
-  margin: 3% auto;
+  font-family: "Solway", serif;
+  /* grid-column: 2/3; */
+  margin-bottom: 10px;
   font-style: italic;
 }
 
 .small-text {
-  grid-column: 2/3;
+  /* grid-column: 2/3; */
+  display: flex;
+  flex-direction: column;
+  text-align: center;
   color: white;
   font-size: 10px;
-  margin: 3% auto;
+  margin-top: 10px;
+}
+
+#title {
+  text-align: center;
+  color: white;
 }
 
 button {
-  grid-column: 2/3;
-  margin: 3% auto;
-  width: 70%;
-  height: 15%;
-  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  justify-content: center;
+  /* grid-column: 2/3; */
+  margin: 0 auto;
+  /* width: 70%; */
+  /* height: 15%; */
+  font-family: "Solway", serif;
+  /* font-family: Arial, Helvetica, sans-serif; */
   font-size: 20px;
   border-radius: 25px;
-  background: transparent;
-  padding: 20px;
-  padding-bottom: 5%;
+  border: 5px solid #0795c3;
+  background: darkgrey;
+  padding: 10px;
+  /* background: transparent; */
+  /* padding: 20px; */
+  /* padding-bottom: 5%; */
   text-align: center;
   color: white;
-  letter-spacing: 16px;
-  font-style: italic;
+  /* letter-spacing: 16px; */
+  font-style: normal;
+}
+
+button > a {
+  color: white;
+}
+
+button:hover {
+  animation: bounceOutUp 3s;
+  animation-iteration-count: infinite;
+}
+
+.footer {
+  margin-top: 325px;
 }
