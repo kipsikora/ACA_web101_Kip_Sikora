@@ -1,0 +1,33 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Anton&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="Towers.css" />
+    <link rel="stylesheet" href="Mobile-Towers.css" />
+    <title>Towers of Hanoi</title>
+  </head>
+  <body>
+    <div class="canvas">
+      <div id="title">Towers of Hanoi</div>
+      <div data-row class="arsenic"></div>
+      <div data-row class="sunny"></div>
+      <div data-row class="blue-yonder"></div>
+      <div data-row class="eton-blue"></div>
+      <div data-row>
+        <div data-color="sunny"></div>
+        <div data-color="arsenic"></div>
+        <div data-color="blue-yonder"></div>
+        <div data-color="eton-blue"></div>
+      </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <script src="Towers.js"></script>
+  </body>
+</html>
+
+<!-- Why use "data-row" instead of putting the rows in a <div> with class="data-row"? -->
