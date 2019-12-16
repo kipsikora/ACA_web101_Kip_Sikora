@@ -1,0 +1,80 @@
+.canvas {
+  width: 75%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #c3c757;
+  border: solid lightgray 5px;
+  /* transform: rotate(90deg); */
+}
+
+#title {
+  font-family: "Anton", sans-serif;
+  color: black;
+  font-size: 24px;
+  display: flex;
+  justify-content: center;
+  margin-top: 25px;
+  margin-right: 25px;
+}
+
+[data-row] {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* width: 75%; */
+  height: 53px;
+  margin: 25px;
+  border: 5px solid lightgray;
+}
+
+[data-row].arsenic {
+  background-color: #615568;
+}
+
+[data-row].sunny {
+  background-color: #eef36a;
+}
+
+[data-row].blue-yonder {
+  background-color: #5171a5;
+}
+
+[data-row].eton-blue {
+  background-color: #9bc995;
+}
+
+[data-color] {
+  margin: 2px;
+  border: solid black 2px;
+  float: left;
+}
+
+[data-color="eton-blue"] {
+  height: 33px;
+  width: 100px;
+  background-color: #9bc995;
+}
+
+[data-color="blue-yonder"] {
+  height: 33px;
+  width: 75px;
+  background-color: #5171a5;
+}
+
+[data-color="arsenic"] {
+  height: 33px;
+  width: 50px;
+  background-color: #615568;
+}
+
+[data-color="sunny"] {
+  height: 33px;
+  width: 25px;
+  background-color: #eef36a;
+}
+
+#announce-game-won {
+  font-size: 50px;
+  text-align: center;
+}
