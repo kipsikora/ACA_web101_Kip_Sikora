@@ -1,0 +1,9 @@
+@media (max-width: 576px) {
+  body {
+    max-width: 576px;
+  }
+
+  .buttons {
+    margin-left: 0;
+  }
+}
