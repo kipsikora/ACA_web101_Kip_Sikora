@@ -1,3 +1,7 @@
+body {
+  background: linear-gradient(to left, blue, purple, blue);
+}
+
 #canvas {
   display: flex;
   justify-content: center;
@@ -107,7 +111,7 @@
 p {
   font-family: "Sulphur Point", sans-serif;
   font-size: 35px;
-  color: black;
+  color: white;
   margin-top: 20px;
   text-align: center;
 }
