@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <link rel="stylesheet" href="./dashboard-style.css" />
     <link rel="stylesheet" href="dashboardmobile-style.css" />
-    <title>Document</title>
+    <title>Dashboard</title>
   </head>
   <body>
     <div class="calendar">
@@ -32,6 +32,10 @@
     <div class="time">
       11:11.11 pm
       <div class="greeting">Now is the time...</div>
+    </div>
+    <div class="location">
+      <button onclick="getLocation()">Get Location!</button>
+      <p id="my-coordinates"></p>
     </div>
     <div class="focus">
       What is your goal for today?
@@ -66,5 +70,7 @@
         </p>
       </div>
     </div>
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <script src="dashboard.js"></script>
   </body>
 </html>
