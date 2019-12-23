@@ -1,0 +1,117 @@
+body {
+  background: linear-gradient(to left, blue, purple, blue);
+}
+
+#canvas {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 520px;
+  height: 520px;
+  border-radius: 50px;
+  border: solid black 1px;
+  background: linear-gradient(to top left, blue, purple, blue);
+}
+
+/* @keyframes grad {
+  0% {
+    background-image: linear-gradient(to top right, blue, purple, blue);
+  }
+
+  25% {
+    background-image: linear-gradient(to top left, blue, purple, blue);
+  }
+
+  50% {
+    background-image: linear-gradient(to top right, blue, purple, blue);
+  }
+
+  100% {
+    background-image: linear-gradient(to top left, blue, purple, blue);
+  }
+} */
+
+#grad {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 480px;
+  width: 480px;
+  border-radius: 50px;
+  border: solid black 1px;
+  background-color: red;
+  background-image: linear-gradient(to top right, blue, purple, blue);
+  /* animation-name: grad;
+  animation-timing-function: ease-in-out;
+  animation-direction: alternate;
+  animation-duration: 4s;
+  animation-iteration-count: infinite; */
+}
+
+#circle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 360px;
+  width: 360px;
+  border-radius: 180px;
+  border: solid black 1px;
+  background-color: black;
+  background-image: radial-gradient(circle, white, black);
+  animation: pulse 1s;
+  animation-iteration-count: infinite;
+}
+
+#circle2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 320px;
+  width: 320px;
+  border-radius: 160px;
+  border: solid black 1px;
+  background-color: red;
+  background-image: radial-gradient(circle, red, blue, purple);
+  animation: pulse 1s;
+  animation-iteration-count: infinite;
+}
+
+#circle3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60px;
+  width: 60px;
+  border-radius: 40px;
+  border: solid black 1px;
+  background-color: black;
+  background-image: radial-gradient(circle, white, black);
+  animation: pulse 1s;
+  animation-iteration-count: infinite;
+}
+
+#circle4 {
+  height: 30px;
+  width: 30px;
+  border-radius: 15px;
+  border: solid black 1px;
+  background-color: black;
+  background-image: radial-gradient(circle, red, blue, purple);
+  animation: heartBeat 1s;
+  animation-delay: 1s;
+  animation-iteration-count: infinite;
+}
+
+p {
+  font-family: "Sulphur Point", sans-serif;
+  font-size: 35px;
+  color: white;
+  margin-top: 20px;
+  text-align: center;
+}
