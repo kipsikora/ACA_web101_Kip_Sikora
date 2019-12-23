@@ -60,6 +60,18 @@ body {
   padding-top: 100px;
 }
 
+.location {
+  grid-area: 4/1/4/4;
+  margin: 25px auto;
+}
+
+#my-coordinates {
+  /* text-align: center; */
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  color: white;
+}
+
 .greeting {
   grid-area: 2/2/3/3;
   text-align: center;
